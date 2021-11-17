@@ -19,5 +19,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: build
       run:
-        gcc main.c
-        ./a.out
+        gcc main.c && ./a.out
